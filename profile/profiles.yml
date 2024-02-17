@@ -1,0 +1,21 @@
+data_diff:
+    target: dev
+    outputs:
+      dev:
+        type: postgres
+        host: localhost
+        user: user
+        password: password
+        port: 5432
+        dbname: data_diff
+        schema: public
+        threads: 1
+      prod:
+        type: postgres
+        host: localhost
+        user: user
+        password: password
+        port: 5432
+        dbname: data_diff
+        schema: prod
+        threads: 1
