@@ -1,4 +1,4 @@
-.PHONY: seed run run_prod run_with_prod
+.PHONY: seed run run_prod run_with_diff_stats run_with_diff_stats_json run_with_diff
 
 seed:
 	dbt seed --profiles-dir profile --project-dir ./data_diff
